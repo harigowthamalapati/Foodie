@@ -1,0 +1,203 @@
+@charset "UTF-8";
+*{
+    margin-top: 0%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+}
+#logo{
+    height: 120px;
+}
+#part_1{
+    background-image: url(./images/BG6.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    position: relative;
+    
+}
+#nav_bar{
+    display: flex;
+    gap: 30px;
+    
+}
+.nav_anchor{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+.nav_anchor:hover{
+    color: #c2c2c2;
+}
+#section_1{
+    /* border: 2px solid; */
+    height: 850px;
+    
+}
+#company_name{
+    width: fit-content;
+    padding: 15px;
+    font-size: 40px;
+    background-color: white;
+    opacity:0.7;
+    position: absolute;
+    left: 70px;
+    top: 200px;
+
+}
+#company_moto{
+    width: fit-content;
+    padding: 20px;
+    opacity: 0.7;
+    position: absolute;
+    left: 70px;
+    top: 300px;
+    color: white;
+}
+
+#company_about{
+    padding: 100px 200px 100px 200px;
+    color: white;
+    position: absolute;
+    bottom: 0%;
+}
+#our_company{
+    background-image: url(./images/bg2.jpg);
+    background-attachment: fixed;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#our_company_heading{
+    width: 800px;
+    font-size: 40px;
+    padding: 13px;
+    background-color: white;
+    opacity: 0.6;
+    color: #171717;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+#our_company_desc{
+    padding: 100px 200px 100px 200px;
+    color: white;
+    position: absolute;
+    bottom: 0%;
+}
+#service_sec{
+    background-image: url(./images/bg3.jpg);
+    background-attachment: fixed;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+#services_heading{
+    width: fit-content;
+    font-size: 40px;
+    padding: 13px;
+    background-color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+#service_desc{
+    padding: 100px 200px 100px 200px;
+    color: white;
+    position: absolute;
+    bottom: 0%;
+}
+
+#test_monial_sec{
+    background-image: url(./images/bg4.jpg);
+    background-attachment: fixed;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#test_monial_heading{
+    padding: 13px;
+    font-size: 40px;
+    width: fit-content;
+    background-color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+#test_monial_desc{
+    padding: 70px 200px 70px 200px;
+    color: white;
+    position: absolute;
+    bottom: 0%;
+}
+#gallery{
+    background-image: url(./images/bg5.jpg);
+    background-attachment: fixed;
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+#gallery_heading{
+    width: fit-content;
+    background-color: white;
+    opacity: 0.6;
+    padding: 13px;
+    font-size: 40px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+#gallery_desc{
+    height: 900px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 100px 70px 150px;
+    position: absolute;
+    bottom: 0%;
+    
+}
+.gallery_img{
+    height: 200px;
+}
+figcaption{
+	color:black;
+	font-size: 20px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer{
+    height: 150px;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+.fa-brands{
+    color: white;
+    font-size: 30px;
+}
+#address{
+    color: white;
+}
+#mobile_no{
+    color: white;
+}
+#email{
+    color: white;
+}
